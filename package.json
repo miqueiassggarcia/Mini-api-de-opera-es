@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true
+  },
+  "include": [
+    "*.ts"
+  ],
+  "scripts": {
+    "sub": "npx ts-node ./subtraction.ts",
+    "sum": "npx ts-node ./sub.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
